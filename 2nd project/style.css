@@ -1,0 +1,30 @@
+html,body{
+ height: 100%;
+ width: 100%;
+}
+body{
+ background-color: lightseagreen;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#container{
+ height: 45%;
+ width: 15%;
+ background-color: white;
+ border-radius: 10px;
+ background-image: url(images/download.jpeg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+i{
+ color: white;
+ font-size: 70px;
+ opacity: 0;
+ transform: scale(0);
+ transition: ease-in .2s;
+}
